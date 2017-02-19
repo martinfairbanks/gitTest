@@ -11,12 +11,11 @@ function draw() {
     } else {
         fill(0,255,0);
     }
-    
+
     ellipse(mouseX, mouseY, 80, 80);
 }
 
 function changeBackground() {
-    //background(random(255), random(255), random(255));
 	background(200);
 	line(100,100,200,200);
 	ellipse(x,height/2,20,20);
@@ -27,6 +26,4 @@ function changeBackground() {
 	drawingContext.shadowBlur = 10;
 	drawingContext.shadowColor = "black";
 	ellipse(width/2,height/2,50,50);
-
-	
 }
